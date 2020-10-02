@@ -76,3 +76,9 @@ prevBtn.addEventListener("click", function () {
   }
   selectPerson();
 });
+
+randomBtn.addEventListener("click", function () {
+  selectedItem = Math.floor(Math.random() * reviews.length);
+  console.log(selectedItem);
+  selectPerson();
+});
